@@ -1,0 +1,124 @@
+```html
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Menu Pilihan</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            padding: 20px;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 450px;
+            background: white;
+            padding: 40px 30px;
+            border-radius: 20px;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+        }
+
+        .logo {
+            font-size: 55px;
+            margin-bottom: 15px;
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            color: #777;
+            margin-bottom: 30px;
+            font-size: 15px;
+        }
+
+        .pilihan {
+            display: block;
+            width: 100%;
+            padding: 17px;
+            margin: 15px 0;
+            border-radius: 12px;
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .pilihan-a {
+            background: #007bff;
+        }
+
+        .pilihan-b {
+            background: #28a745;
+        }
+
+        .pilihan:hover {
+            transform: translateY(-3px);
+            opacity: 0.9;
+            box-shadow: 0 7px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .footer {
+            margin-top: 25px;
+            font-size: 12px;
+            color: #999;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="logo">📚</div>
+
+        <h1>Selamat Datang</h1>
+
+        <p class="subtitle">
+            Silakan pilih opsi yang ingin Anda buka
+        </p>
+
+        <!-- OPSI A -->
+        <a
+            class="pilihan pilihan-a"
+            href="https://link-opsi-a.com"
+            target="_blank">
+            🔵 Opsi A
+        </a>
+
+        <!-- OPSI B -->
+        <a
+            class="pilihan pilihan-b"
+            href="https://share.google/p9Nc56A8ASF83tOx4"
+            target="_blank">
+            🟢 Opsi B
+        </a>
+
+        <div class="footer">
+            © 2026 Menu Pilihan
+        </div>
+
+    </div>
+
+</body>
+</html>
+```
